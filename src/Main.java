@@ -34,10 +34,9 @@ public class Main {
        map.put("Max", 5);
        map.put("Jim", 31);
         System.out.println(map);
-
         System.out.println("If there is Bob"+map.containsKey("Bob"));
         changeMapAddSumOfNames(map, "Bob", "Max");
-        //System.out.println(map);
+        System.out.println(map);
     }
     public static void changeMapAddSumOfNames(Map <String, Integer> map, String key1, String key2) {
         System.out.println(map.containsKey(key1));
@@ -50,7 +49,7 @@ public class Main {
             System.out.println("Сколько лет Max" + value2);
         map.put(key1+"_" +key2, value1+value2);
         }
-        System.out.println(map);
+        //System.out.println(map);
 
     }
 }
